@@ -33,3 +33,25 @@ Sơ đồ khối và bảng trạng thái
 8. Có thể viết task để kiểm tra tự động. Có thể dùng các $display, $monitor,...
 
     -> chỉ cần nhìn qua console log, không cần soi waveform nhưng gây nặng file
+
+9. Ngoài cách viết chương trình bằng các toán tử bit thì còn có thể đùng các Module Gate Level để viết
+
+    -> Xem code halfAdderModuleGateLevel.v
+
+    Có các module Gate Level như sau:
+
+    1. nand (out, in1, in2);
+
+    2. and (out, in1, in2);
+
+    3. not (out, in);
+
+    4. xor (out, in1, in2);
+
+10. Bộ cộng này còn có thể được viết sử dụng khối always để luôn thực hiện
+
+Khối này thực hiện suốt vòng đời chương trình
+
+Có sử dụng toán tử sự kiện @ để thông báo có điều kiện trước khi thực hiện code trong always block
+
+Code trong khối này chỉ thực hiện khi có bất kỳ sự thay đổi nào về điều kiện
