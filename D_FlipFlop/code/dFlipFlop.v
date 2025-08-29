@@ -10,7 +10,7 @@ module dFlipFlop (
     // Đồng bộ hóa cả Q và Qn trên cạnh lên Clk
     always @(posedge Clk) begin
         Q  <= D;
-        Qn <= ~Q;    // hoặc ~D, tuỳ yêu cầu thiết kế
+        Qn <= ~D;
     end
 
 endmodule
