@@ -1,4 +1,4 @@
-# MUX 2 to 1
+# Decoder 2 to 4
 
 Module và bảng trạng thái
 

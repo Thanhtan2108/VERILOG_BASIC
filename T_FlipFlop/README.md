@@ -1,5 +1,11 @@
 # Kiến thức quan trọng cần nắm rõ trước khi bắt đầu viết chương trình
 
+Module và bảng trạng thái T FlipFlop
+
+![Sơ đồ khối](img/DiagramModule.png)
+
+![Bảng trạng thái](img/TrueTable.png)
+
 ## 1. Mạch tổ hợp (Combinational Circuit)
 
 Định nghĩa:

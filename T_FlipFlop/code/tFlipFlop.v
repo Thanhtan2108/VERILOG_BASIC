@@ -32,3 +32,27 @@ module tFlipFlop (
     end
 
 endmodule
+
+/*
+C2: 
+`timescale 1ns/1ps   // Định nghĩa đơn vị thời gian mô phỏng
+
+module tFlipFlop (
+    input wire T,       // Ngõ vào T
+    input wire clk,     // Ngõ vào clock
+    output reg Q,       // Ngõ ra Q
+    output wire Qn      // Ngõ ra đảo Q
+);
+
+    initial begin
+        Q = 1;
+        Qn = 0;
+    end
+
+    always @ (posedge clk) begin
+        Q = ~Q;
+        Qn = !Qn;
+    end
+
+endmodule
+*/

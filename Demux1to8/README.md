@@ -1,4 +1,4 @@
-# MUX 2 to 1
+# Demux 1 to 8
 
 Module và bảng trạng thái
 

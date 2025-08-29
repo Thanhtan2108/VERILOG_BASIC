@@ -7,7 +7,7 @@ module mux2To1Testbench;
     wire f;
 
     // 2) Kết nối DUT
-    mux2To1 dut (
+    mux2To1 uut (
         .w0(w0),
         .w1(w1),
         .S (S),

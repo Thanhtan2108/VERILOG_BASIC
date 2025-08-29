@@ -14,3 +14,19 @@ module dFlipFlop (
     end
 
 endmodule
+
+/*
+C2:
+`timescale 1ns/1ps
+
+module dFlipFlop (
+    input  wire D,
+    input  wire Clk,
+    output reg  Q
+);
+    always @ (posedge Clk) begin
+        Q <= D;
+    end
+
+endmodule
+*/
