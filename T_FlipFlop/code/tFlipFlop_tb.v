@@ -29,9 +29,9 @@ module tFlipFlopTestbench;
         reset = 1; T = 0;
 
         // Tạo file để lưu waveform (dùng với GTKWave)
-        // $dumpfile("T_FlipFlop_tb.vcd");
-        // $dumpvars(0, tb_T_FlipFlop);
-
+        // $dumpfile("T_FlipFlop_tb.vcd"); 
+        // $dumpvars(0, tFlipFlopTestbench);
+        
         // Reset
         #10 reset = 0;
 
